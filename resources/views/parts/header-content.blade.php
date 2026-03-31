@@ -24,8 +24,8 @@
                 @endisset
                  
             </div>
-            <div class="col-sm-6">
-                actions
+            <div class="col-sm-6 text-end">
+                @yield('page-action')
             </div>
         </div>
             <!--end::Row-->
